@@ -32,6 +32,12 @@ body{
   .task{
     width: 350px;
   }
+  .task-content{
+    width: 300px;
+  }
+  .edit-task{
+    width: 200px;
+  }
 }
 @media (min-width: 700px) and (max-width: 900px) {
   .header{
@@ -49,6 +55,12 @@ body{
   .task{
     width: 400px;
   }
+  .task-content{
+    width: 350px;
+  }
+  .edit-task{
+    width: 250px;
+  }
 }
 @media (min-width: 900px) {
   .header{
@@ -65,6 +77,12 @@ body{
   }
   .task{
     width: 450px;
+  }
+  .task-content{
+    width: 400px;
+  }
+  .edit-task{
+    width: 300px;
   }
 }
 
@@ -157,9 +175,8 @@ body{
 }
 .task-content{
   display: grid;
-  grid-template-columns: 1fr 230px 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   align-items: center;
-  width: 245px;
 }
 
 .not-done-button{
@@ -217,7 +234,6 @@ body{
 
 .edit-task{
   height: 35px;
-  width: 220px;
   margin-right: 20px;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
