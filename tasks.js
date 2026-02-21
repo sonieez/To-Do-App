@@ -1,20 +1,4 @@
-export let tasks = JSON.parse(localStorage.getItem('tasks')) || [
-  {
-    id: 1,
-    name: 'Task1',
-    isDone: false
-  },
-  {
-    id: 2,
-    name: 'Task2',
-    isDone: true
-  },
-  {
-    id: 3,
-    name: 'Task3',
-    isDone: false
-  }
-];
+export let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 export function findId() {
   let newId = 0;
